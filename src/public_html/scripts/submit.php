@@ -3,7 +3,7 @@
 /* submit.php
 Rushy Panchal */
 
-require_once(__DIR__."/../../parkar-lib.php");
+require_once(__DIR__."/../../user-lib.php");
 session_start();
 
 function registerUser($db) {
